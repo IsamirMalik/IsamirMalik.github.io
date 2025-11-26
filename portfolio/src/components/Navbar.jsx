@@ -15,9 +15,12 @@ export default function Navbar() {
   return (
     <header className="site-header">
       <nav className="nav container-center">
+      <div className="avatar-container">
+       <img src="../../public/3.png" alt="avatar" className="avatar" />
         <a className="brand" href="#home">
           Sameer
         </a>
+      </div>
 
         <button
           className="nav-toggle"
