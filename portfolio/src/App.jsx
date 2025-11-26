@@ -9,6 +9,11 @@ import {
   FaPhone,
   FaFilePdf,
 } from "react-icons/fa";
+import img3 from "./assets/3.png";
+import alertify from "./assets/alertify.png";
+import myImage from "./assets/myImage.jpg";
+import reactLogo from "./assets/react.svg";
+import smartHome from "./assets/smart-home.png";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -56,11 +61,7 @@ function App() {
             <h2 className="section-title">About me</h2>
 
             <div className="container-center card">
-              <img
-                src="./../public/myImage.jpg"
-                alt="myImage"
-                className="myImage"
-              />
+              <img src={myImage} alt="myImage" className="myImage" />
               <p className="about-text">
                 I am a curious and passionate learner who embraces new
                 challenges with enthusiasm. I take responsibility seriously,
@@ -98,11 +99,7 @@ function App() {
           {/* <div className="container-center"> */}
           <div className="projects-grid">
             <article className="project-card">
-              <img
-                src="./../public/alertify.png"
-                alt=""
-                className="project-image"
-              />
+              <img src={alertify} alt="" className="project-image" />
               <button>
                 <a
                   href="https://backend-unit-5.vercel.app/"
@@ -121,11 +118,7 @@ function App() {
               </button>
             </article>
             <article className="project-card">
-              <img
-                src="./../public/smart-home.png"
-                className="project-image"
-                alt=""
-              />
+              <img src={smartHome} className="project-image" alt="" />
               <button>
                 <a
                   href="https://react-6g1vsdtw2-sameer-maliks-projects-c323985c.vercel.app/"

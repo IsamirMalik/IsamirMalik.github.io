@@ -1,4 +1,5 @@
 import { useState } from "react";
+import img3 from "../assets/3.png";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -15,12 +16,12 @@ export default function Navbar() {
   return (
     <header className="site-header">
       <nav className="nav container-center">
-      <div className="avatar-container">
-       <img src="../../public/3.png" alt="avatar" className="avatar" />
-        <a className="brand" href="#home">
-          Sameer
-        </a>
-      </div>
+        <div className="avatar-container">
+          <img src={img3} alt="avatar" className="avatar" />
+          <a className="brand" href="#home">
+            Sameer
+          </a>
+        </div>
 
         <button
           className="nav-toggle"
