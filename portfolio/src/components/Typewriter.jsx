@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 
 export default function Typewriter({
-  text = "Hi — I'm Samir",
+  text = "Welcome !",
   speed = 80,
   cursor = false,
   pause = 5000,

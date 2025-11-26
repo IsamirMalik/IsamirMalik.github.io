@@ -16,7 +16,7 @@ export default function Navbar() {
     <header className="site-header">
       <nav className="nav container-center">
       <div className="avatar-container">
-       <img src="../../public/3.png" alt="avatar" className="avatar" />
+       <img src="../assets/3.png" alt="avatar" className="avatar" />
         <a className="brand" href="#home">
           Sameer
         </a>
