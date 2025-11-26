@@ -57,7 +57,7 @@ function App() {
 
             <div className="container-center card">
               <img
-                src="../src/assets/myImage.jpg"
+                src="./../public/myImage.jpg"
                 alt="myImage"
                 className="myImage"
               />
@@ -99,7 +99,7 @@ function App() {
           <div className="projects-grid">
             <article className="project-card">
               <img
-                src="../src/assets//alertify.png"
+                src="./../public/alertify.png"
                 alt=""
                 className="project-image"
               />
@@ -122,7 +122,7 @@ function App() {
             </article>
             <article className="project-card">
               <img
-                src="../src/assets//smart-home.png"
+                src="./../public/smart-home.png"
                 className="project-image"
                 alt=""
               />
