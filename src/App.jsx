@@ -119,7 +119,6 @@ function App() {
                   GitHub
                 </a>
               </button>
-
             </article>
             <article className="project-card">
               <img
