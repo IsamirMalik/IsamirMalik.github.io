@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Typewriter from "./components/Typewriter";
@@ -17,11 +17,13 @@ import smartHome from "./assets/smart-home.png";
 
 function App() {
   const [count, setCount] = useState(0);
+  const resumeUrl =
+    "https://drive.google.com/file/d/18jkI-WUWCJfAoq-k4ptHNQYwjFHRSDih/view?usp=drivesdk";
+  
 
   return (
     <div className="app">
       <Navbar />
-
       <header id="home" className="hero">
         {/* <div className="container-center"> */}
         <h1 className="hero-title animate-fade-up">
@@ -190,9 +192,10 @@ function App() {
               <h2 className="section-title">
                 <a
                   className="resume-link"
-                  href="https://drive.google.com/file/d/18jkI-WUWCJfAoq-k4ptHNQYwjFHRSDih/view?usp=drivesdk"
+                  href={resumeUrl}
+                  download={resumeUrl}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noreferrer"
                 >
                   <FaFilePdf aria-hidden />
                   <span>Resume</span>

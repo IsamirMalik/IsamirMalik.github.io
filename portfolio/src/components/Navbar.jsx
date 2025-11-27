@@ -1,18 +1,13 @@
+
 import { useState } from "react";
 import img3 from "../assets/3.png";
-inmport "../App.css"
+import "../App.css"
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
-  const links = [
-    { href: "#home", label: "Home" },
-    { href: "#about", label: "About me" },
-    { href: "#skills", label: "Skills" },
-    { href: "#projects", label: "Projects" },
-    { href: "#contact", label: "Contact" },
-    { href: "#resume", label: "Resume" },
-  ];
+  
+ 
 
   return (
     <header className="site-header">
@@ -54,13 +49,24 @@ export default function Navbar() {
           onClick={() => setOpen(false)}
           aria-hidden={!open}
         >
-          {links.map((l, i) => (
-            <li key={l.href} className="nav-item" style={{ ["--i"]: i }}>
-              <a className="nav-link" href={l.href}>
-                {l.label}
-              </a>
+            <li className="nav-item">
+              <a href="/#home" className="nav-link" target="_blank" rel="noreferrer">Home</a>
             </li>
-          ))}
+            <li className="nav-item">
+              <a href="/#about" className="nav-link" target="_blank" rel="noreferrer">About</a>
+            </li>
+            <li className="nav-item">
+              <a href="/#skills" className="nav-link" target="_blank" rel="noreferrer">Skills</a>
+            </li>
+            <li className="nav-item">
+              <a href="/#projects" className="nav-link" target="_blank" rel="noreferrer">Projects</a>
+            </li>
+            <li className="nav-item">
+              <a href="/#contact" className="nav-link" target="_blank" rel="noreferrer">Contact</a>
+            </li>
+            <li className="nav-item">
+              <a href="/#resume" className="nav-link" target="_blank" rel="noreferrer">Resume</a>
+            </li>
         </ul>
       </nav>
     </header>
