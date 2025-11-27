@@ -1,5 +1,6 @@
 import { useState } from "react";
 import img3 from "../assets/3.png";
+inmport "../App.css"
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
