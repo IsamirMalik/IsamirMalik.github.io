@@ -11,7 +11,7 @@ import {
 } from "react-icons/fa";
 import img3 from "./assets/3.png";
 import alertify from "./assets/alertify.png";
-import myImage from "./assets/myImage.jpg";
+import profile from "./assets/profile.jpg";
 import reactLogo from "./assets/react.svg";
 import smartHome from "./assets/smart-home.png";
 
@@ -63,7 +63,7 @@ function App() {
             <h2 className="section-title">About me</h2>
 
             <div className="container-center card">
-              <img src={myImage} alt="myImage" className="myImage" />
+              <img src={profile} alt="myImage" className="myImage" />
               <p className="about-text">
                 I am a curious and passionate learner who embraces new
                 challenges with enthusiasm. I take responsibility seriously,
