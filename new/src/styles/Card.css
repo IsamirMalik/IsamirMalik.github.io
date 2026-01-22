@@ -1,0 +1,33 @@
+.card {
+  font-family: Saira;
+  font-size: 1.2rem;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: #fbc042;
+  box-shadow: 0 2px 4px rgba(24, 22, 22, 0.3);
+  border-radius: 10px;
+}
+
+.card:hover {
+  color: #fff;
+  font-weight: 600;
+  background-color: #4b1c4d;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 900px) {
+  .card {
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .card {
+    font-size: 0.6rem;
+    padding: 0.5rem;
+  }
+}
