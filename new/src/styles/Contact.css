@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Faustina:ital,wght@0,300..800;1,300..800family=Saira:ital,wght@0,100..900;1,100..900&family=Yatra+One&display=swap");
+
+.contact-section {
+  box-sizing: border-box;
+  /* background-color: #ffecc4; */
+  height: 100%;
+}
+
+.contact-header {
+  font-family: Protest Riot;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem;
+  color: #fbc042;
+  background-color: #4b1c4d;
+  font-size: 2em;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  width: fit-content;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.contact-description {
+  font-family: Faustina;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem;
+  color: #4b1c4d;
+  /* background-color: #4b1c4d; */
+  font-size: 1.5em;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+  width: fit-content;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.contact-list {
+  /* background-color: #fbc042; */
+  background-color: #4b1c4d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  /* border: 0.2rem solid #4b1c4d; */
+  width: 60%;
+  margin: 1rem auto;
+  margin-top: 2rem;
+  /* gap: 1em; */
+  list-style: none;
+}
+
+.contact-item {
+  font-size: 4em;
+  /* color: #4b1c4d; */
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  /* padding: 0.2rem 0.6rem; */
+  border-radius: 10px;
+
+  /* transition: all 2s ease-in-out; */
+}
+
+.contact-item:hover {
+  background-color: #ffae00d3;
+  /* color: #4b1c4de5; */
+  transition: all 0.8s ease-in-out;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(24, 22, 22, 0.3);
+}
+
+.contact-details {
+  position: relative;
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  /* width: 80%; */
+  margin: 1rem auto;
+}
+
+#contact-details-phone,
+#contact-details-email,
+#contact-details-whatsApp,
+#contact-details-linkedIn,
+#contact-details-gitHub {
+  /* display: none; */
+  visibility: hidden;
+  font-size: 1.2rem;
+  /* transform: scale(0); */
+  position: absolute;
+  top: 0.2rem;
+  font-family: Protest Riot;
+  background-color: #fbc042;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  color: #4b1c4d;
+  border: 0.2rem solid #ffb30e;
+  margin-bottom: 1rem;
+  transition: all 0.8s ease-in-out;
+}
+
+.contact-header:hover {
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-description:hover {
+  background-color: #fbc042;
+  color: #4b1c4d;
+  transition: all 0.3s ease-in-out;
+}
+@media screen and (max-width: 768px) {
+  /* .contact-section { */
+    /* height: 40vh; */
+  /* } */
+  .contact-header {
+    font-size: 1em;
+    padding: 0.5em;
+  }
+
+  .contact-description {
+    font-size: 1em;
+    width: 80%;
+    padding: 0.7em;
+  }
+  .contact-item {
+    font-size: 2em;
+  }
+  .contact-list {
+    width: 60%;
+  }
+
+  #contact-details-phone,
+  #contact-details-email,
+  #contact-details-whatsApp,
+  #contact-details-linkedIn,
+  #contact-details-gitHub {
+    font-size: 1rem;
+    padding: 0.6em 1em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* .contact-section { */
+    /* height: 30vh; */
+  /* } */
+  .contact-header {
+    font-size: 0.8em;
+    padding: 0.5em;
+  }
+
+  .contact-description {
+    font-size: 0.7em;
+    width: 80%;
+    padding: 0.5em;
+  }
+  .contact-item {
+    font-size: 1.5em;
+  }
+  .contact-list {
+    width: 80%;
+  }
+  #contact-details-phone,
+  #contact-details-email,
+  #contact-details-whatsApp,
+  #contact-details-linkedIn,
+  #contact-details-gitHub {
+    font-size: 0.5em;
+    padding: 0.6em 0.8em;
+  }
+}
