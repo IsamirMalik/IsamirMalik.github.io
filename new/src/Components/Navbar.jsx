@@ -27,7 +27,13 @@ export default function Navbar() {
             <a href="#github">GitHub</a>
           </li>
           <li className="nav-item">
-            <a href="">Resume</a>
+            <a
+              href="https://drive.google.com/file/d/1yOCMDByABgb1sSru-TIgWozyHtsI6JeU/view?usp=drivesdk"
+              download
+              target="_blank"
+            >
+              Resume
+            </a>
           </li>
           <li className="nav-item">
             <a href="#contact">Contact</a>
@@ -52,12 +58,16 @@ export default function Navbar() {
             <a href="#projects">Project</a>
           </li>
           <li className="nav-item">
-            <a href="#github" >
-              GitHub
-            </a>
+            <a href="#github">GitHub</a>
           </li>
           <li className="nav-item">
-            <a href="/about">Resume</a>
+            <a
+              href="https://drive.google.com/file/d/1yOCMDByABgb1sSru-TIgWozyHtsI6JeU/view?usp=drivesdk"
+              download
+              target="_blank"
+            >
+              Resume
+            </a>
           </li>
           <li className="nav-item">
             <a href="#contact">Contact</a>
