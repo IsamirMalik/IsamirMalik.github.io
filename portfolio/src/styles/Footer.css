@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
+
+.footer-section {
+  /* background-color: #ffecc4; */
+  color: #4b1c4d;
+  text-align: center;
+  font-family: "Ephesis", cursive;
+  /* height: 50vh; */
+}
+
+.footnote {
+  margin-top: 3rem;
+  padding: 1rem;
+  font-weight: 800;
+  /* margin-bottom: 1rem; */
+  font-size: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .footnote {
+    margin-top: 1rem;
+    font-size: 2rem;
+    /* padding: 1rem; */
+    /* margin-bottom: 1rem; */
+  }
+}

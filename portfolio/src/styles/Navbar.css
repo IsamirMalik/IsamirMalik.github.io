@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.hamburger {
+  display: none;
+  font-weight: 800;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  /* justify-content: flex-end; */
+  background: #fbc042;
+  box-shadow: 0 2px 4px rgba(24, 22, 22, 0.3);
+}
+
+#toggle {
+  display: none;
+  color: #4b1b4d;
+  font-size: 2rem;
+  margin: 1rem 1rem;
+  cursor: pointer;
+  border: none;
+  background: none;
+  margin-bottom: 0.3rem;
+  outline: none;
+}
+
+.show#hamburger-list {
+  transform: translateX(0);
+}
+#hamburger-list {
+  font-family: Faustina;
+  position: fixed;
+  top: 0;
+  right: 0;
+  transform: translateX(100%);
+  transition: all 0.3s ease-in-out;
+  z-index: 11;
+  width: 30%;
+  background-color: #fbc042;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0.5rem;
+  margin: 0;
+  border-bottom-left-radius: 10px;
+  box-shadow: 0 2px 4px rgba(24, 22, 22, 0.3);
+  z-index: 100;
+}
+
+.navbar {
+  font-family: merriweather sans;
+  font-weight: 800;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-around;
+  background: #fbc042;
+  box-shadow: 0 2px 4px rgba(24, 22, 22, 0.3);
+  padding: 0.5em 0;
+}
+
+#nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+  margin: 0 3em;
+  padding: 0.8rem;
+  border-radius: 10px;
+}
+
+#toggle:hover {
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-item a {
+  font-size: 1.5em;
+  color: #4b1b4d;
+  cursor: pointer;
+  list-style: none;
+  text-decoration: none;
+  padding: 0.3em;
+}
+
+.nav-item a:hover {
+  background-color: #4b1b4d;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(24, 22, 22, 0.3);
+}
+
+@media screen and (min-width: 768px) {
+  .show#hamburger-list {
+    transform: translateX(100%);
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+
+  #toggle {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #hamburger-list {
+    width: 50%;
+  }
+
+  .nav-item a {
+    font-size: 1.2em;
+  }
+}

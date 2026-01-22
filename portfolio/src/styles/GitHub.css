@@ -1,0 +1,77 @@
+.github-section {
+  background-color: #ffecc4;
+  padding-bottom: 1rem;
+}
+.github-header {
+  display: block;
+  font-family: Protest Riot;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #4b1c4d;
+  color: #fff;
+  font-size: 2em;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  width: fit-content;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.github-stats {
+  display: flex;
+  width: 60%;
+  /* flex-wrap: wrap; */
+  margin: 1rem auto;
+  margin-bottom: 0;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.5rem;
+  /* flex-wrap: wrap; */
+}
+
+.github-stats > img {
+  width: 60%;
+  height: auto;
+}
+
+@media screen and (max-width: 1068px) {
+  .github-stats {
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 844px) {
+
+  .github-header{
+    font-size: 1.5em;
+    padding: 0.8rem;
+  }
+  .github-stats {
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 520px) {
+
+  .github-header{
+    font-size: 0.8em;
+    padding: 0.5rem;
+  }
+  .github-stats > img {
+    width: 100%;
+    height: auto;
+  }
+
+  .github-stats {
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+    justify-content: space-around;
+  }
+}
