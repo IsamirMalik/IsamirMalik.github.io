@@ -1,0 +1,145 @@
+.skills-section {
+  background-image: url("../assets/tech-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  position: relative;
+}
+
+.skills-section::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fce3ad;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skills-heading {
+  font-size: 2em;
+  font-family: Protest Riot;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #4b1c4d;
+  color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  width: fit-content;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.skills-description {
+  font-family: Saira;
+  font-size: 1.2rem;
+  justify-content: center;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(24, 22, 22, 0.3);
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  margin: 1rem 1rem;
+  position: relative;
+  text-align: center;
+}
+
+.skills-description::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #4b1c4d;
+  z-index: -1;
+  opacity: 1;
+}
+
+.skills-description:hover {
+  background-color: #fbc042;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+.skill-sub-heading {
+  font-family: Protest Riot;
+  text-align: center;
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: #4b1c4d;
+  color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  width: fit-content;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.tools {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 1197px) {
+  .skills-description {
+    font-size: 1rem;
+  }
+  .skills-container {
+    gap: 10px;
+  }
+  .skill-sub-heading {
+    font-size: 0.8rem;
+    padding: 0.4rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .skills-heading {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+  .skills-description {
+    font-size: 0.7rem;
+  }
+
+  .skills-container {
+    gap: 10px;
+  }
+
+  .tools {
+    margin-top: 0.4rem;
+  }
+
+  .skill-sub-heading {
+    font-size: 0.8rem;
+    padding: 0.4rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .skills-description {
+    font-size: 0.5rem;
+  }
+
+  .skill-sub-heading {
+    font-size: 0.6rem;
+    padding: 0.2rem;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .skills-description {
+    font-size: 0.3rem;
+  }
+}
