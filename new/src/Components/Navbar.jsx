@@ -28,7 +28,7 @@ export default function Navbar() {
           </li>
           <li className="nav-item">
             <a
-              href="https://drive.google.com/file/d/1yOCMDByABgb1sSru-TIgWozyHtsI6JeU/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/11nVGheK7Pj1ZPa_KAz4lffKOZ5d647Nw/view?usp=drive_link"
               download
               target="_blank"
             >
@@ -62,7 +62,7 @@ export default function Navbar() {
           </li>
           <li className="nav-item">
             <a
-              href="https://drive.google.com/file/d/1yOCMDByABgb1sSru-TIgWozyHtsI6JeU/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/11nVGheK7Pj1ZPa_KAz4lffKOZ5d647Nw/view?usp=drive_link"
               download
               target="_blank"
             >
