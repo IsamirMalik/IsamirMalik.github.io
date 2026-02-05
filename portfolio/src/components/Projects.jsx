@@ -134,7 +134,7 @@ export default function Projects() {
                 href="https://todo-gilt-theta.vercel.app/"
                 target="_blank"
               >
-                Manage Expenses
+                Manage Todo
                 <span className="link">
                   <FaExternalLinkAlt />
                 </span>
