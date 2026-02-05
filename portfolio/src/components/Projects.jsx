@@ -114,6 +114,35 @@ export default function Projects() {
             </div>
           </span>
         </div>
+        <div className="project-card fourth-project">
+          <span className="project-description fourth">
+            <h3 className="project-title">Todo</h3>
+            <p>
+              This is an simple todo web-app with minimal and attractive UI . it offers the functionality to add / update / mark as complete and delete a todo . It use Local storage so that the data does persist across the page reload .
+            </p>
+            <div className="project-links">
+              <a
+                href="https://github.com/IsamirMalik/Projects/tree/main/todo"
+                target="_blank"
+              >
+                GitHub
+                <span className="link">
+                  <FaExternalLinkAlt />
+                </span>
+              </a>
+              <a
+                href="https://todo-gilt-theta.vercel.app/"
+                target="_blank"
+              >
+                Manage Expenses
+                <span className="link">
+                  <FaExternalLinkAlt />
+                </span>
+              </a>
+            </div>
+          </span>
+          <img src={projectTwo} alt="" />
+        </div>
       </div>
     </section>
   );
