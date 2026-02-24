@@ -24,9 +24,17 @@ export default function Skills() {
           <Card title="TailwindCss" />
           <Card title="JavaScript" />
           <Card title="React" />
+          <Card title="React-icons" />
+          <Card title="React-Router-Dom" />
+          <Card title="React-chartjs-2" />
           <Card title="Redux" />
-          <Card title="Node.js" />
+          <Card title="Redux-Toolkit" />
+          <Card title="Nodejs" />
+          <Card title="JWT" />
+          <Card title="Mongoose" />
           <Card title="Express.js" />
+          <Card title="Razorpay" />
+          <Card title="cloudinary" />
           <Card title="MongoDB" />
         </div>
       </div>
