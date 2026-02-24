@@ -1,6 +1,7 @@
 import projectOne from "../assets/project-one.png";
 import projectTwo from "../assets/project-two.png";
 import projectThree from "../assets/project-three.png";
+import projectFour from "../assets/project-four.png";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 import "../styles/Projects.css";
@@ -15,6 +16,34 @@ export default function Projects() {
         <div className="project-card first-project">
           <img src={projectOne} alt="" />
           <span className="project-description first">
+            <h3 className="project-title">Learning Management System</h3>
+            <p>
+              Learning Management System (LMS) is a full‑stack web app to simplify online learning. It features secure authentication, password change, profile updating and password reset, Addition and deletion of courses and lectures, uses charts to show payment statistics and number of students registered and enrolled, student subscription, subscription cancellation etc .
+            </p>
+            <div className="project-links">
+              <a
+                href="https://github.com/IsamirMalik/Projects/tree/main/lms-frontend"
+                target="_blank"
+              >
+                GitHub
+                <span className="link">
+                  <FaExternalLinkAlt />
+                </span>
+              </a>
+              <a
+                href="https://lms-eight-virid-95.vercel.app/"
+                target="_blank"
+              >
+                Let's Learn
+                <span className="link">
+                  <FaExternalLinkAlt />
+                </span>
+              </a>
+            </div>
+          </span>
+        </div>
+        <div className="project-card second-project">
+          <span className="project-description second">
             <h3 className="project-title">Tic-Tac-Toe</h3>
             <p>
               The Tic-Tac-Toe is a modern, interactive web-based implementation
@@ -46,9 +75,11 @@ export default function Projects() {
               </a>
             </div>
           </span>
+          <img src={projectTwo} alt="" />
         </div>
-        <div className="project-card second-project">
-          <span className="project-description second">
+        <div className="project-card third-project">
+          <img src={projectThree} alt="" />
+          <span className="project-description third">
             <h3 className="project-title">Expense Tracker</h3>
             <p>
               The Expense Tracker is a simple yet powerful web application
@@ -79,25 +110,18 @@ export default function Projects() {
                 </span>
               </a>
             </div>
+            
           </span>
-          <img src={projectTwo} alt="" />
         </div>
-        <div className="project-card third-project">
-          <img src={projectThree} alt="" />
-          <span className="project-description third">
-            <h3 className="project-title">Calculator</h3>
+        <div className="project-card fourth-project">
+          <span className="project-description fourth">
+            <h3 className="project-title">Todo</h3>
             <p>
-              The Calculator is a fully functional web-based calculator
-              application designed to perform basic arithmetic operations. Built
-              with vanilla HTML, CSS, and JavaScript, this calculator provides a
-              user-friendly interface for performing mathematical calculations
-              with real-time display updates. The calculator supports addition,
-              subtraction, multiplication, division, and decimal operations with
-              a clean, intuitive design.
+              This is an simple todo web-app with minimal and attractive UI . it offers the functionality to add / update / mark as complete and delete a todo . It use Local storage so that the data does persist across the page reload .
             </p>
             <div className="project-links">
               <a
-                href="https://github.com/IsamirMalik/Projects/tree/main/calculator"
+                href="https://github.com/IsamirMalik/Projects/tree/main/todo"
                 target="_blank"
               >
                 GitHub
@@ -105,14 +129,18 @@ export default function Projects() {
                   <FaExternalLinkAlt />
                 </span>
               </a>
-              <a href=" https://projects-fbz1.vercel.app/" target="_blank">
-                Calculate
+              <a
+                href="https://todo-gilt-theta.vercel.app/"
+                target="_blank"
+              >
+                Manage Todo
                 <span className="link">
                   <FaExternalLinkAlt />
                 </span>
               </a>
             </div>
           </span>
+          <img src={projectFour} alt="" />
         </div>
       </div>
     </section>

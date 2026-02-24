@@ -1,9 +1,9 @@
 .card {
   font-family: Saira;
-  font-size: 1.2rem;
+  font-size: 1rem;
   align-items: center;
-  padding: 1rem;
-  margin-top: 1rem;
+  padding: 0.5rem;
+  margin-top: 0.8rem;
   background-color: #fbc042;
   box-shadow: 0 2px 4px rgba(24, 22, 22, 0.3);
   border-radius: 10px;

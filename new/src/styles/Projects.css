@@ -42,7 +42,8 @@
 
 .project-description.first,
 .project-description.third,
-.project-description.second {
+.project-description.second,
+.project-description.fourth{
   font-family: Faustina;
   background-color: #fbc042;
   font-size: 1.5rem;
@@ -136,12 +137,14 @@
 
   .project-description.first,
   .project-description.third,
+  .project-description.fourth,
   .project-description.second {
     padding: 0 1rem;
   }
 
   .project-description.first > p,
   .project-description.third > p,
+  .project-description.fourth > p,
   .project-description.second > p {
     font-size: 1rem;
   }
@@ -164,12 +167,14 @@
 
   .project-description.first,
   .project-description.third,
+  .project-description.fourth,
   .project-description.second {
     padding: 0 0.5rem;
   }
 
   .project-description.first > p,
   .project-description.third > p,
+  .project-description.fourth > p,
   .project-description.second > p {
     font-size: 0.6rem;
     margin: 0 0.2rem;
