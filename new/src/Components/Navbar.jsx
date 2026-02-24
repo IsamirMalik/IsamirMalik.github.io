@@ -28,7 +28,7 @@ export default function Navbar() {
           </li>
           <li className="nav-item">
             <a
-              href="https://drive.google.com/file/d/11nVGheK7Pj1ZPa_KAz4lffKOZ5d647Nw/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1rLXIhLOP8zDVbgiDpnrlMYDVhgMs7oaM/view"
               download
               target="_blank"
             >
